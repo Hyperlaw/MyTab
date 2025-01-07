@@ -38,5 +38,13 @@
             android:name="password"
             app:argType="string"
             android:defaultValue="Password"/>
+        <action
+            android:id="@+id/action_secondFragment_to_blankFragment"
+            app:destination="@id/blankFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.mytab.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" />
 </navigation>

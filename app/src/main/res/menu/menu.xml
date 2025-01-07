@@ -11,4 +11,9 @@
         android:id="@+id/secondFragment"
         android:title="Second"/>
 
+    <item
+        android:icon="@drawable/ic_document"
+        android:id="@+id/blankFragment"
+        android:title="Home"/>
+
 </menu>
